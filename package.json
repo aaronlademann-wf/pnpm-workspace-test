@@ -1,0 +1,13 @@
+{
+  "name": "pnpm-workspace-test-monorepo",
+  "version": "1.0.0-alpha.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.11.0",
+    "pnpm": "^9"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  }
+}

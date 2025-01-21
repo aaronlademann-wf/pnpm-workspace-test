@@ -1,0 +1,17 @@
+{
+  "name": "pnpm-workspace-test-subpackage2",
+  "version": "1.0.0-alpha.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "engines": {
+    "node": "^20.11.0",
+    "pnpm": "^9"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}
