@@ -11,6 +11,9 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm"
   },
+  "dependencies": {
+    "pnpm-workspace-test-subpackage1": "link:../subpackage1"
+  },
   "devDependencies": {
     "typescript": "catalog:"
   }
